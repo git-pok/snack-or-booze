@@ -1,0 +1,44 @@
+/* DEFINED ALL LOGIC. */
+.NotFound {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0px;
+  background-image: url('https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.NotFound-card {
+  width: 50vw;
+  height: 200px;
+  margin: 0px auto;
+  margin-top: 15vh;
+  background-color: rgba(0, 0, 0, 0.803);
+  border: 4px outset rgb(253, 176, 176);
+  padding-top: 20px;
+}
+.NotFound-h1 {
+  text-align: center;
+  color: rgb(255, 178, 178);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.NotFound a {
+  display: block;
+  width: 170px;
+  margin: 0px auto;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  transition: .5s ease-in-out background-color;
+}
+
+.NotFound a:hover {
+  color: rgb(214, 153, 0);
+  background-color: rgb(255, 255, 255);
+}
+
